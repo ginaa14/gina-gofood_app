@@ -1,0 +1,17 @@
+read instal,resto,makan,gopay,tunai
+
+if instal=false{
+    download()
+}
+pilih menu()
+pilih resto()
+pilih makan()
+pilih checkout()
+pilih pesan()
+if bayar=gopay{
+    tunggu-pesanan()
+}
+else bayar=tunai{
+    tunggu-pesanan
+}
+END IF
